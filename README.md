@@ -1,101 +1,99 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1f2e&height=120&section=header&text=Tianle%20Huang&fontSize=42&fontColor=c9d1d9&fontAlignY=65&animation=fadeIn" />
-</div>
+<br />
+<br />
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=58A6FF" />
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=58A6FF&label=profile+views" />
-</div>
+# Tianle Huang
+
+**AI Engineer &nbsp;·&nbsp; Stockholm University**
 
 <br />
 
-```
-AI Engineer · Stockholm University MSc
-Machine Learning  /  NLP  /  Speech Systems
-```
+I build machine learning systems for language and speech —
+from research prototype to production pipeline.
 
 <br />
 
----
-
-### Work
-
-I build end-to-end AI systems — from research design to deployed pipelines.
-My focus sits at the intersection of **machine learning**, **speech technology**, and **multilingual NLP**.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-informational?style=flat-square&logo=linkedin&logoColor=white&color=0A66C2)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-informational?style=flat-square&logo=gmail&logoColor=white&color=EA4335)](mailto:YOUR_EMAIL)
 
 <br />
-
----
-
-### Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-0d1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)
-![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=4DABCF)
-![R](https://img.shields.io/badge/R-0d1117?style=for-the-badge&logo=r&logoColor=276DC3)
-![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
+<br />
 
 </div>
 
-<br />
-
 ---
 
-### Projects
-
-<details>
-<summary>&nbsp;<b>Multilingual Retrieval Engine</b>&nbsp;·&nbsp;<sub>NLP · PyTorch · HuggingFace</sub></summary>
 <br />
 
-Cross-lingual semantic search system using aligned multilingual embeddings with cosine similarity ranking and a modular evaluation pipeline.
+**Specialization** &nbsp;&nbsp; Machine Learning &nbsp;·&nbsp; NLP &nbsp;·&nbsp; Speech Technology
 
-</details>
+**Education** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MSc in AI & Language, Stockholm University
 
-<details>
-<summary>&nbsp;<b>Speech Bias Evaluation Framework</b>&nbsp;·&nbsp;<sub>ASR · Whisper · Python · R</sub></summary>
-<br />
-
-End-to-end pipeline for detecting bias in ASR outputs — automated transcription via Whisper, statistical testing, and reproducible experiment infrastructure.
-
-</details>
-
-<details>
-<summary>&nbsp;<b>Human–LLM Speech Continuation Study</b>&nbsp;·&nbsp;<sub>Generative AI · Evaluation · Python</sub></summary>
-<br />
-
-Experimental framework for benchmarking LLM-generated speech continuations against human baselines — audio segmentation, transcription, and quantitative analysis.
-
-</details>
+**Interests** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Evaluation methodology &nbsp;·&nbsp; Multilingual systems &nbsp;·&nbsp; Responsible AI
 
 <br />
 
 ---
 
-### Research
+<br />
 
-Generative AI evaluation · Multilingual NLP · Speech-language systems · Responsible AI
+## Projects
+
+<br />
+
+**Multilingual Retrieval Engine**
+
+Cross-lingual semantic search using aligned multilingual embeddings and cosine similarity ranking.
+`Python` `PyTorch` `HuggingFace`
+
+<br />
+
+**Speech Bias Evaluation Framework**
+
+End-to-end pipeline for detecting demographic bias in ASR outputs — Whisper transcription, statistical testing, reproducible experiment infrastructure.
+`Python` `Whisper` `R`
+
+<br />
+
+**Human–LLM Speech Continuation Study**
+
+Benchmarking framework comparing LLM-generated and human speech continuations through audio segmentation, transcription, and quantitative evaluation.
+`Python` `Whisper`
 
 <br />
 
 ---
+
+<br />
+
+## Stack
+
+<br />
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=leoohuang&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&hide_rank=false" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leoohuang&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=8b949e" />
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-4DABCF?style=flat-square&logo=numpy&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
+
+<br />
+
+---
+
+<br />
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1f2e,100:0d1117&height=80&section=footer" />
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leoohuang&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9d1d9&icon_color=58A6FF&text_color=8b949e)
+
 </div>
+
+<br />
