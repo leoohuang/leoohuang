@@ -121,14 +121,6 @@ Experimental framework for benchmarking generative speech consistency against hu
 
 Generative AI evaluation &nbsp;·&nbsp; Multilingual & cross-lingual NLP &nbsp;·&nbsp; Speech–language integration &nbsp;·&nbsp; Responsible AI
 
----
-
-<div align="center">
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=leoohuang&theme=github_dark)
-&nbsp;
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=leoohuang&theme=github_dark)
-
 <sub>Stockholm, Sweden &nbsp;·&nbsp; Open to research collaborations and engineering roles</sub>
 
 </div>
