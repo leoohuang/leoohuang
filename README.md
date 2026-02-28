@@ -1,118 +1,50 @@
-<h1 align="center">Tianle Huang</h1>
+<!-- ===== HEADER ===== -->
+
 <p align="center">
-NLP Engineer · Speech Systems · Multilingual AI
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Tianle%20Huang&fontSize=42&fontColor=ffffff&animation=fadeIn"/>
 </p>
 
 <p align="center">
-MSc in AI & Language — Stockholm University
+machine learning · language ai · speech technology
 </p>
 
 ---
 
-## Engineering Focus
+## about
 
-I design and build language-centered AI systems with a strong foundation in
-linguistics, speech processing, and statistical modeling.
+building systems around language, speech and learning.
 
-My work bridges:
-
-- Natural Language Processing (NLP)
-- Speech Technology (ASR & analysis)
-- Multilingual retrieval systems
-- Model evaluation & bias assessment
-- Human–AI interaction
+msc student in **ai & language** @ stockholm university.  
+interested in multilingual systems, speech evaluation and human–ai interaction.
 
 ---
 
-## Core Technical Domains
+## currently building
 
-### NLP Systems
-- Text preprocessing pipelines
-- Tokenization & linguistic feature extraction
-- Multilingual embeddings
-- Cross-lingual semantic search
-- Vector similarity ranking (cosine-based retrieval)
-- Evaluation methodology for generative systems
-
-### Speech Technology
-- Speech signal analysis
-- Automatic Speech Recognition (ASR)
-- Whisper-based transcription pipelines
-- Speech continuation experiments
-- Bias detection in speech outputs
-
-### Machine Learning & Statistics
-- Representation learning
-- Classical ML methods
-- Experimental design
-- Statistical testing (R + Python)
-- Performance benchmarking
+- multilingual semantic retrieval
+- speech bias evaluation pipeline
+- human–llm speech experiments
 
 ---
 
-## Engineering Stack
+## projects
 
-### Programming
-![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python)
-![R](https://img.shields.io/badge/R-000?style=for-the-badge&logo=r)
-![Bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnubash)
-
-### ML / NLP
-![PyTorch](https://img.shields.io/badge/PyTorch-000?style=for-the-badge&logo=pytorch)
-![ScikitLearn](https://img.shields.io/badge/Scikit--Learn-000?style=for-the-badge&logo=scikitlearn)
-![NumPy](https://img.shields.io/badge/NumPy-000?style=for-the-badge&logo=numpy)
-![Transformers](https://img.shields.io/badge/HuggingFace-000?style=for-the-badge&logo=huggingface)
-
-### Infrastructure
-![Linux](https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux)
-![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)
-![Docker](https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker)
+| project | what it does |
+|---|---|
+| **multilingual-retrieval-engine** | cross-lingual semantic search using embeddings |
+| **speech-bias-eval** | evaluation pipeline for ASR outputs |
+| **speech-continuation-study** | experiments on generative speech behaviour |
 
 ---
 
-## Systems Built
+## tech map
 
-### Multilingual Retrieval Engine
-Embedding-based semantic search system for cross-lingual similarity ranking.
+```text
+ml        → pytorch · sklearn · numpy
+language  → nlp · multilingual embeddings · retrieval
+speech    → asr · whisper · audio analysis
+infra     → linux · git · docker · r
 
-- aligned vector representations
-- cosine similarity scoring
-- ranking evaluation pipeline
-- modular experiment structure
-
----
-
-### Speech Bias Evaluation Pipeline
-End-to-end system for analyzing bias in ASR-generated outputs.
-
-- Whisper transcription
-- statistical analysis (R + Python)
-- automated evaluation scripts
-- reproducible experiment setup
-
----
-
-### Human–LLM Speech Continuation Framework
-Experimental pipeline for evaluating generative speech consistency.
-
-- audio segmentation
-- transcription workflow
-- quantitative + qualitative evaluation
-
----
-
-## Research & Direction
-
-I am particularly interested in:
-
-- Linguistically grounded AI systems
-- Speech-language integration
-- Evaluation methodology for generative models
-- Ethical and societal aspects of language AI
-
----
-
-## GitHub Activity
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent)
+activity
+<p align="center"> <img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent"/> <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent"/> </p>
+<p align="center"> exploring language intelligence. </p> <!-- ===== FOOTER WAVE ===== --> <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer"/> </p> ```
