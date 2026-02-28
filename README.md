@@ -1,64 +1,76 @@
 <div align="center">
-<br />
+
 <br />
 
 # Tianle Huang
 
-**AI Engineer &nbsp;·&nbsp; Stockholm University**
+<p>AI Engineer &nbsp;·&nbsp; MSc in AI & Language, Stockholm University</p>
 
 <br />
 
-I build machine learning systems for language and speech —
-from research prototype to production pipeline.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&pause=1500&color=58A6FF&center=true&vCenter=true&width=500&lines=Machine+Learning+%C2%B7+NLP+%C2%B7+Speech+Technology;Research-driven+engineering+%E2%80%94+end+to+end)](https://git.io/typing-svg)
 
 <br />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-informational?style=flat-square&logo=linkedin&logoColor=white&color=0A66C2)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-informational?style=flat-square&logo=gmail&logoColor=white&color=EA4335)](mailto:YOUR_EMAIL)
-
-<br />
-<br />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
 
 </div>
 
----
-
-<br />
-
-**Specialization** &nbsp;&nbsp; Machine Learning &nbsp;·&nbsp; NLP &nbsp;·&nbsp; Speech Technology
-
-**Education** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MSc in AI & Language, Stockholm University
-
-**Interests** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Evaluation methodology &nbsp;·&nbsp; Multilingual systems &nbsp;·&nbsp; Responsible AI
-
 <br />
 
 ---
 
 <br />
 
-## Projects
+I design and build AI systems across the full research-to-deployment cycle.
+My work spans machine learning foundations, speech processing, and multilingual NLP —
+with a strong emphasis on rigorous evaluation, reproducibility, and practical deployment.
 
 <br />
 
-**Multilingual Retrieval Engine**
-
-Cross-lingual semantic search using aligned multilingual embeddings and cosine similarity ranking.
-`Python` `PyTorch` `HuggingFace`
+---
 
 <br />
 
-**Speech Bias Evaluation Framework**
-
-End-to-end pipeline for detecting demographic bias in ASR outputs — Whisper transcription, statistical testing, reproducible experiment infrastructure.
-`Python` `Whisper` `R`
+## Competencies
 
 <br />
 
-**Human–LLM Speech Continuation Study**
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
 
-Benchmarking framework comparing LLM-generated and human speech continuations through audio segmentation, transcription, and quantitative evaluation.
-`Python` `Whisper`
+**Machine Learning**
+- Statistical & representation learning
+- Classical ML methods
+- Experimental design
+- Evaluation methodology
+- Performance benchmarking
+
+</td>
+<td width="33%" valign="top">
+
+**NLP**
+- Multilingual embeddings
+- Cross-lingual semantic retrieval
+- Text preprocessing
+- Linguistic feature extraction
+- Generative system evaluation
+
+</td>
+<td width="33%" valign="top">
+
+**Speech Technology**
+- Automatic Speech Recognition
+- Whisper-based ASR pipelines
+- Speech signal analysis
+- Speech continuation experiments
+- Bias detection in ASR outputs
+
+</td>
+</tr>
+</table>
 
 <br />
 
@@ -73,13 +85,27 @@ Benchmarking framework comparing LLM-generated and human speech continuations th
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-4DABCF?style=flat-square&logo=numpy&logoColor=white)
+&nbsp;
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+&nbsp;
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+<br /><br />
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+&nbsp;
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+&nbsp;
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+&nbsp;
+![NumPy](https://img.shields.io/badge/NumPy-4DABCF?style=flat-square&logo=numpy&logoColor=white)
+
+<br /><br />
+
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+&nbsp;
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+&nbsp;
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
@@ -90,10 +116,78 @@ Benchmarking framework comparing LLM-generated and human speech continuations th
 
 <br />
 
+## Projects
+
+<br />
+
+<details>
+<summary><b>Multilingual Retrieval Engine</b> &nbsp;·&nbsp; <code>Python</code> <code>PyTorch</code> <code>HuggingFace</code></summary>
+<br />
+
+Embedding-based semantic search system for cross-lingual similarity ranking.
+
+- Aligned multilingual vector representations
+- Cosine similarity scoring
+- Modular, reproducible evaluation pipeline
+
+</details>
+
+<br />
+
+<details>
+<summary><b>Speech Bias Evaluation Framework</b> &nbsp;·&nbsp; <code>Python</code> <code>Whisper</code> <code>R</code></summary>
+<br />
+
+End-to-end pipeline for detecting and quantifying demographic bias in ASR outputs.
+
+- Automated Whisper transcription
+- Statistical significance testing (R + Python)
+- Reproducible experiment infrastructure
+
+</details>
+
+<br />
+
+<details>
+<summary><b>Human–LLM Speech Continuation Study</b> &nbsp;·&nbsp; <code>Python</code> <code>Whisper</code></summary>
+<br />
+
+Experimental framework for benchmarking generative speech consistency against human baselines.
+
+- Audio segmentation and transcription workflow
+- Qualitative + quantitative evaluation design
+- Comparative analysis between human and model outputs
+
+</details>
+
+<br />
+
+---
+
+<br />
+
+## Research Interests
+
+Generative AI evaluation &nbsp;·&nbsp; Multilingual & cross-lingual NLP &nbsp;·&nbsp; Speech–language integration &nbsp;·&nbsp; Responsible AI
+
+<br />
+
+---
+
+<br />
+
 <div align="center">
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leoohuang&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9d1d9&icon_color=58A6FF&text_color=8b949e)
+&nbsp;&nbsp;
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leoohuang&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9d1d9&text_color=8b949e)
 
+</div>
+
+<br />
+
+<div align="center">
+<sub>Stockholm, Sweden &nbsp;·&nbsp; Open to research collaborations and engineering roles</sub>
 </div>
 
 <br />
