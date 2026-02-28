@@ -1,125 +1,55 @@
-<h1 align="center">Tianle Huang</h1>
+<h1 align="center">Tianle</h1>
 
 <p align="center">
-Language AI Engineer · Machine Learning · Speech & NLP Systems
-</p>
-
-<p align="center">
-MSc in AI & Language — Stockholm University
+language ai · ml · speech
 </p>
 
 ---
 
-## Professional Focus
+building systems around language, speech and learning.
 
-I design and build AI systems centered around language and speech.
-
-My work integrates:
-
-- Machine Learning foundations
-- Natural Language Processing systems
-- Speech processing pipelines
-- Multilingual language technologies
-- Model evaluation & bias analysis
-
-I am particularly interested in building linguistically grounded AI systems
-that are robust, interpretable, and practically deployable.
+currently exploring multilingual retrieval, speech evaluation
+and how humans interact with language models.
 
 ---
 
-## Core Competencies
+### things i'm working on
 
-### Machine Learning (Foundation)
-
-- Statistical modeling
-- Representation learning
-- Classical ML methods
-- Experimental design
-- Performance benchmarking
-- Evaluation methodology
+- multilingual semantic search
+- speech bias evaluation
+- human–llm speech experiments
 
 ---
 
-### Language AI (Specialization)
+### tech landscape
 
-- Natural Language Processing
-- Multilingual embeddings
-- Cross-lingual semantic retrieval
-- Text preprocessing & linguistic feature extraction
-- Generative system evaluation
+**ml**
+python · pytorch · numpy · scikit-learn
 
----
+**language**
+nlp · multilingual embeddings · retrieval systems
 
-### Speech Technology
+**speech**
+asr · whisper pipelines · speech analysis
 
-- Speech signal analysis
-- Automatic Speech Recognition (ASR)
-- Whisper-based transcription pipelines
-- Speech continuation experiments
-- Bias detection in speech outputs
+**tools**
+linux · git · docker · r
 
 ---
 
-## Engineering Stack
+### selected projects
 
-### Programming
-![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python)
-![R](https://img.shields.io/badge/R-000?style=for-the-badge&logo=r)
-![Bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnubash)
+**multilingual-retrieval-engine**  
+cross-lingual search using aligned embeddings
 
-### ML / NLP
-![PyTorch](https://img.shields.io/badge/PyTorch-000?style=for-the-badge&logo=pytorch)
-![ScikitLearn](https://img.shields.io/badge/Scikit--Learn-000?style=for-the-badge&logo=scikitlearn)
-![NumPy](https://img.shields.io/badge/NumPy-000?style=for-the-badge&logo=numpy)
-![Transformers](https://img.shields.io/badge/HuggingFace-000?style=for-the-badge&logo=huggingface)
+**speech-bias-eval**  
+pipeline for analysing bias in asr outputs
 
-### Infrastructure
-![Linux](https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux)
-![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)
-![Docker](https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker)
+**speech-continuation-study**  
+experimenting with generative speech behaviour
 
 ---
 
-## Systems & Projects
-
-### Multilingual Retrieval Engine
-Embedding-based semantic search system for cross-lingual similarity ranking.
-
-- aligned vector representations
-- cosine similarity scoring
-- modular evaluation pipeline
-
----
-
-### Speech Bias Evaluation Framework
-End-to-end pipeline for analyzing bias in ASR-generated outputs.
-
-- Whisper transcription
-- statistical testing (R + Python)
-- automated experiment setup
-
----
-
-### Human–LLM Speech Continuation Study
-Experimental framework for evaluating generative speech consistency.
-
-- audio segmentation
-- transcription workflow
-- qualitative + quantitative evaluation
-
----
-
-## Research Interests
-
-- Linguistically grounded AI
-- Speech–language integration
-- Evaluation design for generative systems
-- Responsible AI in language technologies
-
----
-
-## GitHub Activity
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent)
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent"/>
+</p>
