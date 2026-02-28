@@ -125,9 +125,9 @@ Generative AI evaluation &nbsp;·&nbsp; Multilingual & cross-lingual NLP &nbsp;�
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leoohuang&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9d1d9&icon_color=58A6FF&text_color=8b949e)
-&nbsp;&nbsp;
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leoohuang&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9d1d9&text_color=8b949e)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=leoohuang&theme=github_dark)
+&nbsp;
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=leoohuang&theme=github_dark)
 
 <sub>Stockholm, Sweden &nbsp;·&nbsp; Open to research collaborations and engineering roles</sub>
 
