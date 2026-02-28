@@ -1,89 +1,128 @@
 <div align="center">
 
-# Tianle Huang
-
-<p>AI Engineer &nbsp;·&nbsp; MSc in AI & Language, Stockholm University</p>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&pause=1500&color=58A6FF&center=true&vCenter=true&width=500&lines=Machine+Learning+%C2%B7+NLP+%C2%B7+Speech+Technology;Research-driven+engineering+%E2%80%94+end+to+end)](https://git.io/typing-svg)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=TIANLE%20HUANG&fontSize=60&fontColor=ffffff&fontAlignY=55&desc=AI%20Engineer%20%E2%80%94%20ML%20%C2%B7%20NLP%20%C2%B7%20Speech&descSize=16&descAlignY=75&animation=twinkling" width="100%" />
 
 </div>
 
+<br />
+
+<div align="center">
+
+```python
+class TianleHuang:
+    location  = "Stockholm, Sweden"
+    degree    = "MSc AI & Language — Stockholm University"
+    focus     = ["Machine Learning", "NLP", "Speech Technology"]
+    building  = "robust · reproducible · deployable AI systems"
+```
+
+</div>
+
+<br />
+
 ---
 
-I design and build AI systems across the full research-to-deployment cycle.
-My work spans machine learning foundations, speech processing, and multilingual NLP —
-with a strong emphasis on rigorous evaluation, reproducibility, and practical deployment.
+<br />
 
----
+<div align="left">
 
-## Competencies
+## ░ COMPETENCIES
 
-<table width="100%">
+</div>
+
+<br />
+
+<table>
 <tr>
 <td width="33%" valign="top">
 
-**Machine Learning**
-- Statistical & representation learning
-- Classical ML methods
-- Experimental design
-- Evaluation methodology
-- Performance benchmarking
+```
+[ MACHINE LEARNING ]
+─────────────────────
+  Statistical modeling
+  Representation learning
+  Classical ML methods
+  Experimental design
+  Evaluation methodology
+```
 
 </td>
 <td width="33%" valign="top">
 
-**NLP**
-- Multilingual embeddings
-- Cross-lingual semantic retrieval
-- Text preprocessing
-- Linguistic feature extraction
-- Generative system evaluation
+```
+[ NLP ]
+─────────────────────
+  Multilingual embeddings
+  Cross-lingual retrieval
+  Text preprocessing
+  Feature extraction
+  Generative evaluation
+```
 
 </td>
 <td width="33%" valign="top">
 
-**Speech Technology**
-- Automatic Speech Recognition
-- Whisper-based ASR pipelines
-- Speech signal analysis
-- Speech continuation experiments
-- Bias detection in ASR outputs
+```
+[ SPEECH TECHNOLOGY ]
+─────────────────────
+  ASR systems
+  Whisper pipelines
+  Signal analysis
+  Speech continuation
+  Bias detection
+```
 
 </td>
 </tr>
 </table>
 
+<br />
+
 ---
 
-## Stack
+<br />
 
-<div align="center">
+<div align="left">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-4DABCF?style=flat-square&logo=numpy&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+## ░ STACK
 
 </div>
 
----
-
-## Projects
-
-<details>
-<summary><b>Multilingual Retrieval Engine</b> &nbsp;·&nbsp; <code>Python</code> <code>PyTorch</code> <code>HuggingFace</code></summary>
 <br />
 
-Embedding-based semantic search system for cross-lingual similarity ranking.
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-0a0a0a?style=for-the-badge&logo=python&logoColor=3776AB)
+![PyTorch](https://img.shields.io/badge/PyTorch-0a0a0a?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-0a0a0a?style=for-the-badge&logo=huggingface&logoColor=FFD21E)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0a0a0a?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)
+![NumPy](https://img.shields.io/badge/NumPy-0a0a0a?style=for-the-badge&logo=numpy&logoColor=4DABCF)
+![R](https://img.shields.io/badge/R-0a0a0a?style=for-the-badge&logo=r&logoColor=276DC3)
+![Linux](https://img.shields.io/badge/Linux-0a0a0a?style=for-the-badge&logo=linux&logoColor=FCC624)
+![Docker](https://img.shields.io/badge/Docker-0a0a0a?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Git](https://img.shields.io/badge/Git-0a0a0a?style=for-the-badge&logo=git&logoColor=F05032)
+
+</div>
+
+<br />
+
+---
+
+<br />
+
+<div align="left">
+
+## ░ PROJECTS
+
+</div>
+
+<br />
+
+<details>
+<summary><b>▸ &nbsp;Multilingual Retrieval Engine</b> &nbsp;—&nbsp; <code>PyTorch</code> <code>HuggingFace</code> <code>Python</code></summary>
+<br />
+
+> Embedding-based semantic search system for cross-lingual similarity ranking.
 
 - Aligned multilingual vector representations
 - Cosine similarity scoring
@@ -92,43 +131,65 @@ Embedding-based semantic search system for cross-lingual similarity ranking.
 </details>
 
 <details>
-<summary><b>Speech Bias Evaluation Framework</b> &nbsp;·&nbsp; <code>Python</code> <code>Whisper</code> <code>R</code></summary>
+<summary><b>▸ &nbsp;Speech Bias Evaluation Framework</b> &nbsp;—&nbsp; <code>Whisper</code> <code>Python</code> <code>R</code></summary>
 <br />
 
-End-to-end pipeline for detecting and quantifying demographic bias in ASR outputs.
+> End-to-end pipeline for detecting and quantifying demographic bias in ASR outputs.
 
 - Automated Whisper transcription
-- Statistical significance testing (R + Python)
+- Statistical significance testing
 - Reproducible experiment infrastructure
 
 </details>
 
 <details>
-<summary><b>Human–LLM Speech Continuation Study</b> &nbsp;·&nbsp; <code>Python</code> <code>Whisper</code></summary>
+<summary><b>▸ &nbsp;Human–LLM Speech Continuation Study</b> &nbsp;—&nbsp; <code>Whisper</code> <code>Python</code></summary>
 <br />
 
-Experimental framework for benchmarking generative speech consistency against human baselines.
+> Experimental framework benchmarking LLM-generated speech against human baselines.
 
 - Audio segmentation and transcription workflow
 - Qualitative + quantitative evaluation design
-- Comparative analysis between human and model outputs
+- Comparative human–model analysis
 
 </details>
 
----
-
-## Research Interests
-
-Generative AI evaluation &nbsp;·&nbsp; Multilingual & cross-lingual NLP &nbsp;·&nbsp; Speech–language integration &nbsp;·&nbsp; Responsible AI
+<br />
 
 ---
+
+<br />
+
+<div align="left">
+
+## ░ RESEARCH
+
+</div>
+
+<br />
+
+```
+  Generative AI evaluation    ·    Multilingual NLP    ·    Speech–language systems    ·    Responsible AI
+```
+
+<br />
+
+---
+
+<br />
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9d1d9&icon_color=58A6FF&text_color=8b949e)
-&nbsp;&nbsp;
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=c9d1d9&text_color=8b949e)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leoohuang&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00fff2&icon_color=00fff2&text_color=8b949e&ring_color=00fff2)
+&nbsp;
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leoohuang&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00fff2&text_color=8b949e)
 
-<sub>Stockholm, Sweden &nbsp;·&nbsp; Open to research collaborations and engineering roles</sub>
+<br />
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=leoohuang&bg_color=0d1117&color=00fff2&line=00fff2&point=ffffff&area=true&hide_border=true)
 
 </div>
+
+<br />
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=80&section=footer&animation=twinkling" width="100%" />
