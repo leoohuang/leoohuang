@@ -1,107 +1,101 @@
 <div align="center">
-
-```
-╔═══════════════════════════════════════════════════════════╗
-║   TIANLE HUANG                                            ║
-║   Language AI Engineer · MSc AI & Language               ║
-║   Stockholm University                                    ║
-╚═══════════════════════════════════════════════════════════╝
-```
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&pause=1200&color=58A6FF&center=true&vCenter=true&width=580&lines=Machine+Learning+%C2%B7+NLP+%C2%B7+Speech+Technology;Building+robust+and+deployable+AI+systems;Research-driven+%C2%B7+Engineering-focused)](https://git.io/typing-svg)
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1f2e&height=120&section=header&text=Tianle%20Huang&fontSize=42&fontColor=c9d1d9&fontAlignY=65&animation=fadeIn" />
 </div>
 
----
+<div align="center">
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">
+    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=58A6FF" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=58A6FF&label=profile+views" />
+</div>
 
-## About
+<br />
 
-I am a Language AI Engineer with a research background in machine learning, natural language processing, and speech technology. My work spans the full cycle from experimental design to system implementation — with a focus on building AI systems that are robust, reproducible, and deployable.
+```
+AI Engineer · Stockholm University MSc
+Machine Learning  /  NLP  /  Speech Systems
+```
 
-Currently based in Stockholm, finishing an MSc in AI & Language at Stockholm University.
-
----
-
-## Technical Skills
-
-| Domain | Skills |
-|---|---|
-| **Machine Learning** | Statistical modeling · Representation learning · Experimental design · Evaluation methodology |
-| **NLP** | Multilingual embeddings · Cross-lingual retrieval · Text preprocessing · Feature extraction |
-| **Speech Technology** | ASR systems · Whisper-based pipelines · Speech signal analysis · Bias detection |
-| **Programming** | Python · R · Bash |
-| **ML Frameworks** | PyTorch · Scikit-Learn · HuggingFace Transformers · NumPy |
-| **Infrastructure** | Linux · Git · Docker |
+<br />
 
 ---
 
-## Projects
+### Work
 
-<details>
-<summary><b>Multilingual Retrieval Engine</b></summary>
-<br>
+I build end-to-end AI systems — from research design to deployed pipelines.
+My focus sits at the intersection of **machine learning**, **speech technology**, and **multilingual NLP**.
 
-Embedding-based semantic search system for cross-lingual similarity ranking.
-
-- Cross-lingual aligned vector representations
-- Cosine similarity scoring
-- Modular evaluation pipeline
-
-**Stack:** Python · HuggingFace Transformers · PyTorch
-
-</details>
-
-<details>
-<summary><b>Speech Bias Evaluation Framework</b></summary>
-<br>
-
-End-to-end pipeline for detecting and measuring bias in ASR-generated outputs.
-
-- Whisper-based transcription
-- Statistical testing across demographic variables
-- Automated experiment setup and reporting
-
-**Stack:** Python · R · Whisper
-
-</details>
-
-<details>
-<summary><b>Human–LLM Speech Continuation Study</b></summary>
-<br>
-
-Experimental framework for evaluating consistency in generative speech systems.
-
-- Audio segmentation and transcription workflow
-- Qualitative + quantitative evaluation design
-- Comparative analysis between human and model outputs
-
-**Stack:** Python · Whisper · R
-
-</details>
+<br />
 
 ---
 
-## Research Interests
-
-- Evaluation methodology for generative AI systems
-- Multilingual and cross-lingual NLP
-- Speech–language integration
-- Responsible AI and bias analysis in language technologies
-
----
-
-## GitHub Activity
+### Stack
 
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9)
-&nbsp;
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9)
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-0d1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)
+![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=4DABCF)
+![R](https://img.shields.io/badge/R-0d1117?style=for-the-badge&logo=r&logoColor=276DC3)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
 
 </div>
+
+<br />
+
+---
+
+### Projects
+
+<details>
+<summary>&nbsp;<b>Multilingual Retrieval Engine</b>&nbsp;·&nbsp;<sub>NLP · PyTorch · HuggingFace</sub></summary>
+<br />
+
+Cross-lingual semantic search system using aligned multilingual embeddings with cosine similarity ranking and a modular evaluation pipeline.
+
+</details>
+
+<details>
+<summary>&nbsp;<b>Speech Bias Evaluation Framework</b>&nbsp;·&nbsp;<sub>ASR · Whisper · Python · R</sub></summary>
+<br />
+
+End-to-end pipeline for detecting bias in ASR outputs — automated transcription via Whisper, statistical testing, and reproducible experiment infrastructure.
+
+</details>
+
+<details>
+<summary>&nbsp;<b>Human–LLM Speech Continuation Study</b>&nbsp;·&nbsp;<sub>Generative AI · Evaluation · Python</sub></summary>
+<br />
+
+Experimental framework for benchmarking LLM-generated speech continuations against human baselines — audio segmentation, transcription, and quantitative analysis.
+
+</details>
+
+<br />
+
+---
+
+### Research
+
+Generative AI evaluation · Multilingual NLP · Speech-language systems · Responsible AI
+
+<br />
 
 ---
 
 <div align="center">
-<sub>Open to research collaborations and engineering opportunities · Stockholm, Sweden</sub>
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=leoohuang&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&hide_rank=false" />
+&nbsp;&nbsp;
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leoohuang&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=8b949e" />
+
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1f2e,100:0d1117&height=80&section=footer" />
 </div>
