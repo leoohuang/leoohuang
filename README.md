@@ -1,118 +1,125 @@
-# Tianle Huang
+<h1 align="center">Tianle Huang</h1>
 
-MSc in AI and Language — Stockholm University  
-Language Technology | Speech Technology | NLP Systems
+<p align="center">
+Language AI Engineer · Machine Learning · Speech & NLP Systems
+</p>
+
+<p align="center">
+MSc in AI & Language — Stockholm University
+</p>
 
 ---
 
-## About Me
+## Professional Focus
 
-Master’s student in **AI and Language** at Stockholm University, focusing on
-language technology and speech processing systems.
+I design and build AI systems centered around language and speech.
 
-My work sits at the intersection of:
+My work integrates:
+
+- Machine Learning foundations
+- Natural Language Processing systems
+- Speech processing pipelines
+- Multilingual language technologies
+- Model evaluation & bias analysis
+
+I am particularly interested in building linguistically grounded AI systems
+that are robust, interpretable, and practically deployable.
+
+---
+
+## Core Competencies
+
+### Machine Learning (Foundation)
+
+- Statistical modeling
+- Representation learning
+- Classical ML methods
+- Experimental design
+- Performance benchmarking
+- Evaluation methodology
+
+---
+
+### Language AI (Specialization)
 
 - Natural Language Processing
-- Speech Technology
-- Multilingual Language Technology
-- Human–AI Interaction
-- Machine Learning
-
-I am interested in building practical AI systems grounded in linguistic data.
+- Multilingual embeddings
+- Cross-lingual semantic retrieval
+- Text preprocessing & linguistic feature extraction
+- Generative system evaluation
 
 ---
 
-## Academic Background
+### Speech Technology
 
-**Master’s Programme in AI and Language (HSAIO)**  
-Stockholm University — Department of Linguistics
-
-Core areas:
-
-- Linguistics & Language Structure
-- Speech Analysis and Processing
-- Natural Language Processing
-- Statistics & Machine Learning
-- Applied Programming for Language Technology
-- AI-driven Language Applications
+- Speech signal analysis
+- Automatic Speech Recognition (ASR)
+- Whisper-based transcription pipelines
+- Speech continuation experiments
+- Bias detection in speech outputs
 
 ---
 
-## Tech Stack
+## Engineering Stack
 
 ### Programming
-
 ![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python)
 ![R](https://img.shields.io/badge/R-000?style=for-the-badge&logo=r)
 ![Bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnubash)
 
-### AI / Machine Learning
-
+### ML / NLP
 ![PyTorch](https://img.shields.io/badge/PyTorch-000?style=for-the-badge&logo=pytorch)
-![NumPy](https://img.shields.io/badge/NumPy-000?style=for-the-badge&logo=numpy)
 ![ScikitLearn](https://img.shields.io/badge/Scikit--Learn-000?style=for-the-badge&logo=scikitlearn)
+![NumPy](https://img.shields.io/badge/NumPy-000?style=for-the-badge&logo=numpy)
+![Transformers](https://img.shields.io/badge/HuggingFace-000?style=for-the-badge&logo=huggingface)
 
-### NLP & Language Technology
-
-- Natural Language Processing (NLP)
-- Multilingual Embeddings
-- Text Retrieval Systems
-- Linguistic Data Processing
-
-### Speech Technology
-
-- Speech Analysis
-- Automatic Speech Recognition (ASR)
-- Whisper-based pipelines
-- Speech evaluation & bias analysis
-
-### Tools
-
+### Infrastructure
 ![Linux](https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux)
 ![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)
-![VSCode](https://img.shields.io/badge/VSCode-000?style=for-the-badge&logo=visualstudiocode)
+![Docker](https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker)
 
 ---
 
-## Selected Projects
+## Systems & Projects
 
-### Multilingual Text Search
-Cross-lingual semantic retrieval using aligned vector representations.
+### Multilingual Retrieval Engine
+Embedding-based semantic search system for cross-lingual similarity ranking.
 
-- multilingual embedding alignment
-- cosine similarity search
-- evaluation framework
+- aligned vector representations
+- cosine similarity scoring
+- modular evaluation pipeline
 
-### Speech Bias Evaluation
-Evaluation pipeline for analysing bias in generated speech outputs.
+---
+
+### Speech Bias Evaluation Framework
+End-to-end pipeline for analyzing bias in ASR-generated outputs.
 
 - Whisper transcription
-- statistical analysis (R + Python)
-- fairness evaluation
-
-### Speech Continuation Experiment
-Human–AI interaction study on generated speech continuity.
+- statistical testing (R + Python)
+- automated experiment setup
 
 ---
 
-## GitHub Stats
+### Human–LLM Speech Continuation Study
+Experimental framework for evaluating generative speech consistency.
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent)
+- audio segmentation
+- transcription workflow
+- qualitative + quantitative evaluation
 
 ---
 
 ## Research Interests
 
-- Language Technology
-- Speech Processing
-- Multilingual AI
-- Human–AI Communication
-- AI evaluation and ethics
+- Linguistically grounded AI
+- Speech–language integration
+- Evaluation design for generative systems
+- Responsible AI in language technologies
 
 ---
 
-## Contact
+## GitHub Activity
 
-Email: leo_htl@outlook.com
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent)
