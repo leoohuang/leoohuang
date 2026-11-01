@@ -1,68 +1,170 @@
-# Tianle (Leo) Huang
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Tianle (Leo) Huang — AI Researcher & Engineer, MSc AI & Language, Stockholm University" src="assets/banner-light.svg" width="100%">
+</picture>
 
-**AI Researcher & Engineer** · MSc in AI & Language, Stockholm University (expected 2027)
+<p align="center">
+  <a href="https://www.linkedin.com/in/tianle-huang-9066883a8/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:tianleeleo@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Stockholm,_Sweden-30363D?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Stockholm, Sweden">
+</p>
 
-Building reliable, knowledge-centric AI systems at the intersection of NLP, information retrieval, knowledge representation, and machine learning.
+<p align="center">
+  I build <b>reliable, knowledge-centric AI systems</b> at the intersection of<br>
+  NLP, information retrieval, knowledge representation, and machine learning.
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tianle-huang-9066883a8/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tianleeleo@gmail.com)
-![Location](https://img.shields.io/badge/Stockholm,_Sweden-2B3137?style=flat-square&logo=googlemaps&logoColor=white)
-
----
+<br>
 
 ## 🔬 Research & Experience
 
-### Industrial Knowledge Systems · KTH × AstraZeneca research collaboration
-Contributing to an industrial research collaboration on reliable knowledge and retrieval systems for maintenance data.
-- Knowledge graph construction and information extraction from maintenance records
-- Graph modelling and querying with **Neo4j / Cypher**; ontology design with **SHACL** validation
-- Retrieval-augmented generation with dense, structured, and hybrid retrieval
-- Evaluation of knowledge quality and retrieval behaviour
+<table>
+<tr>
+<td width="34%" valign="top">
 
-<sub>Code, data, and results from this collaboration are confidential and not published here.</sub>
+**🏭 Industrial Knowledge Systems**<br>
+<sub>KTH × AstraZeneca · research collaboration</sub>
 
-### Span-Based NER & Active Learning · MaintIE (public data)
-Annotation-efficient nested NER for short maintenance texts — [`ae-ner-maintenance`](https://github.com/leoohuang/ae-ner-maintenance)
-- **Done:** span-classification model on a Transformer encoder (PyTorch, Hugging Face); pre-registered encoder pilot (BERT / RoBERTa / ModernBERT); 10-seed learning curves comparing random, uncertainty, and uncertainty + diversity sampling, with paired significance tests
-- **In progress:** replication of the comparison on NAISS GPU hardware (SLURM)
-- Protocols, splits, and configs are frozen and tagged in Git before each experiment
+![Ongoing](https://img.shields.io/badge/ongoing-1f6feb?style=flat-square)
 
-### Speech Technology Research · KTH
+</td>
+<td valign="top">
+
+Reliable knowledge and retrieval systems for industrial maintenance data.
+- Knowledge graph construction & information extraction
+- **Neo4j / Cypher** graph modelling · ontology design with **SHACL** validation
+- RAG with dense, structured, and hybrid retrieval
+- Knowledge-quality and retrieval evaluation
+
+<sub>🔒 Code, data, and results are confidential and not published here.</sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**🧪 Span-NER & Active Learning**<br>
+<sub>MaintIE · public data</sub>
+
+![Experiments done](https://img.shields.io/badge/experiments-done-2da44e?style=flat-square)
+![GPU replication](https://img.shields.io/badge/GPU_replication-in_progress-bf8700?style=flat-square)
+
+</td>
+<td valign="top">
+
+How much annotation does nested NER on maintenance text really need? → [`ae-ner-maintenance`](https://github.com/leoohuang/ae-ner-maintenance)
+- Span-classification model on a Transformer encoder (PyTorch, Hugging Face)
+- Pre-registered encoder pilot: BERT / RoBERTa / ModernBERT
+- 10-seed learning curves: random vs. uncertainty vs. uncertainty + diversity, with paired significance tests
+- Replication on NAISS GPU hardware (SLURM) in progress
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**🎙️ Speech Technology**<br>
+<sub>KTH · research project</sub>
+
+![Ongoing](https://img.shields.io/badge/ongoing-1f6feb?style=flat-square)
+
+</td>
+<td valign="top">
+
 Speech continuation under speaker-identity bias.
 - Evaluating speech-language model continuations across speaker conditions
-- Whisper transcription and an automated evaluation pipeline, including LLM-as-a-judge scoring
+- Whisper transcription and an automated evaluation pipeline, incl. LLM-as-a-judge
 
----
+</td>
+</tr>
+</table>
+
+<br>
 
 ## 🧩 Featured Projects
 
-**[ae-ner-maintenance](https://github.com/leoohuang/ae-ner-maintenance)** — *How much annotation does nested NER on maintenance text really need?*
-Span-based NER with an active-learning loop, token-budget grid, pre-registered protocols, and unit tests for sampling, budgeting, and statistics.
-`PyTorch` `Transformers` `active learning` `SLURM`
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**[maintenance-mind](https://github.com/leoohuang/maintenance-mind)** — *Agent that checks whether its retrieved evidence is sufficient before answering.*
-ReAct agent over work orders, equipment manuals, and the web, with a separate self-reflection step after each tool round. Synthetic demo data only.
-`LLM agents` `function calling` `FAISS` `sentence-transformers` `Streamlit`
+### [ae-ner-maintenance](https://github.com/leoohuang/ae-ner-maintenance)
+<sub><i>How much labelled data does nested NER need?</i></sub>
 
-**[game-review-ir](https://github.com/leoohuang/game-review-ir)** — *Does a retrieved review actually discuss the aspect a query asks about?*
-Team project: BM25 retrieval, LLM aspect classification, and aspect-aware reranking of Steam reviews. **My part:** the evaluation module — aspect-level nDCG@10, qrels construction, and paired permutation tests.
-`BM25` `IR evaluation` `LLM classification` `Cohen's κ`
+Span-based NER with an active-learning loop, token-budget grid, frozen protocols tagged in Git, and unit tests.
 
-**[Podsearch](https://github.com/leoohuang/Podsearch)** — *Find the exact moment in a podcast where a topic is discussed.*
-Ingests podcast feeds, transcribes with Faster-Whisper, indexes timestamped chunks with BGE-M3 in ChromaDB, and reranks results (Chinese / English) with playable audio clips.
-`ASR` `BGE-M3` `ChromaDB` `reranking` `Streamlit`
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![SLURM](https://img.shields.io/badge/SLURM-30363D?style=flat-square)
 
-**[spoiler-detector](https://github.com/leoohuang/spoiler-detector)** — *Three-level spoiler severity classification for movie reviews.*
-IMDb + GPT-generated data, LLM-assisted labelling checked against a manual sample, sentence embeddings with four classical classifiers. [Live demo](https://huggingface.co/spaces/leoole/spoiler-detector) on Hugging Face.
-`sentence-transformers` `scikit-learn` `Gradio` `Hugging Face`
+</td>
+<td width="50%" valign="top">
 
-**[swedish-vocab-trainer](https://github.com/leoohuang/swedish-vocab-trainer)** — *Turn messy Swedish notes into reviewable vocabulary practice.*
-Local-first web app with file parsing, optional AI-assisted extraction that marks AI-added content, and unit + end-to-end tests.
-`TypeScript` `React` `Vitest` `Playwright` `Docker`
+### [maintenance-mind](https://github.com/leoohuang/maintenance-mind)
+<sub><i>Does the agent have enough evidence to answer?</i></sub>
+
+ReAct agent over work orders, manuals, and the web, with a self-reflection step after each tool round. Synthetic demo data.
+
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
+![Agents](https://img.shields.io/badge/LLM_agents-6E40C9?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [game-review-ir](https://github.com/leoohuang/game-review-ir)
+<sub><i>Does a retrieved review discuss the aspect asked for?</i></sub>
+
+Team project: BM25 + LLM aspect classification + aspect-aware reranking. **My part:** the evaluation module — aspect-level nDCG@10, qrels, permutation tests.
+
+![BM25](https://img.shields.io/badge/BM25-30363D?style=flat-square)
+![nDCG](https://img.shields.io/badge/IR_evaluation-2da44e?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### [Podsearch](https://github.com/leoohuang/Podsearch)
+<sub><i>Find the exact moment a podcast discusses a topic.</i></sub>
+
+Faster-Whisper transcription, BGE-M3 embeddings in ChromaDB, two-stage reranking (ZH / EN), playable audio clips.
+
+![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-5B47FB?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [spoiler-detector](https://github.com/leoohuang/spoiler-detector)
+<sub><i>Safe, mild, or major spoiler?</i></sub>
+
+LLM-assisted labelling checked on a manual sample, sentence embeddings, four classical classifiers. [**Live demo →**](https://huggingface.co/spaces/leoole/spoiler-detector)
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HF_Space-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+
+</td>
+<td width="50%" valign="top">
+
+### [swedish-vocab-trainer](https://github.com/leoohuang/swedish-vocab-trainer)
+<sub><i>Turn messy Swedish notes into practice.</i></sub>
+
+Local-first web app: file parsing, optional AI extraction that marks AI-added content, unit + end-to-end tests.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary><b>More: NLP foundations, implemented from scratch</b></summary>
-<br />
+<summary><b>📚 More — NLP foundations, implemented from scratch</b></summary>
+<br>
 
 | Project | What it covers |
 |---|---|
@@ -75,32 +177,49 @@ Local-first web app with file parsing, optional AI-assisted extraction that mark
 
 </details>
 
----
+<br>
 
 ## 🛠️ Technical Skills
 
-| Area | Tools & methods |
-|---|---|
-| **Languages & Engineering** | Python, TypeScript, R, Bash · Git/GitHub, Linux, Docker · pytest, Vitest, Playwright |
-| **Machine Learning & Deep Learning** | PyTorch, Hugging Face Transformers, scikit-learn, NumPy, pandas · active learning, uncertainty sampling |
-| **NLP & Information Retrieval** | span-based / nested NER, POS tagging, sentence embeddings, BM25, dense retrieval (FAISS, ChromaDB, BGE-M3), reranking, RAG, LLM agents |
-| **Knowledge Graphs & Structured Knowledge** | Neo4j, Cypher, ontology design, SHACL validation, information extraction |
-| **Speech** | Whisper / Faster-Whisper ASR, speech-language model evaluation |
-| **Research Infrastructure & Evaluation** | SLURM on NAISS HPC (GPU), pre-registered experiment protocols, learning curves, nDCG / MRR / F1, Wilcoxon & permutation tests, inter-annotator agreement, LLM-as-a-judge |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,ts,react,r,bash,linux,docker,git,github&perline=11" alt="Python, PyTorch, scikit-learn, TypeScript, React, R, Bash, Linux, Docker, Git, GitHub">
+</p>
 
----
+| | |
+|---|---|
+| 🧠 **ML & Deep Learning** | PyTorch · Hugging Face Transformers · scikit-learn · NumPy · pandas · active learning |
+| 🔎 **NLP & Retrieval** | nested / span NER · POS tagging · sentence embeddings · BM25 · FAISS · ChromaDB · BGE-M3 · reranking · RAG · LLM agents |
+| 🕸️ **Knowledge Graphs** | Neo4j · Cypher · ontology design · SHACL · information extraction |
+| 🎙️ **Speech** | Whisper / Faster-Whisper ASR · speech-language model evaluation |
+| 📐 **Research & Evaluation** | SLURM on NAISS HPC (GPU) · pre-registered protocols · learning curves · nDCG / MRR / F1 · Wilcoxon & permutation tests · inter-annotator agreement · LLM-as-a-judge |
+| ⚙️ **Engineering** | Python · TypeScript · R · Bash · Git · Linux · Docker · pytest · Vitest · Playwright |
+
+<br>
 
 ## 🎯 Research Interests
 
-Reliable AI systems · Knowledge-centric AI · Information retrieval & RAG · Knowledge representation · Data-efficient NLP · Agent reliability
+<p align="center">
+  <code>Reliable AI systems</code>&nbsp;
+  <code>Knowledge-centric AI</code>&nbsp;
+  <code>Information retrieval & RAG</code><br>
+  <code>Knowledge representation</code>&nbsp;
+  <code>Data-efficient NLP</code>&nbsp;
+  <code>Agent reliability</code>
+</p>
 
----
+<br>
 
 ## 📄 Publications & Research Outputs
 
-- **Published / accepted / under review:** none yet.
-- **Ongoing research:** annotation-efficient span NER with active learning (MaintIE); industrial knowledge systems (KTH × AstraZeneca); speech continuation under speaker-identity bias (KTH).
+| Status | |
+|---|---|
+| Published · Accepted · Under review | — none yet |
+| Ongoing | Annotation-efficient span NER with active learning (MaintIE) |
+| Ongoing | Industrial knowledge systems — KTH × AstraZeneca |
+| Ongoing | Speech continuation under speaker-identity bias — KTH |
 
----
+<br>
 
-<sub>Open to research collaborations, research-engineering roles, and PhD opportunities in NLP, IR, and knowledge-centric AI.</sub>
+<p align="center">
+  <sub>Open to research collaborations, research-engineering roles, and PhD opportunities in NLP, IR, and knowledge-centric AI.</sub>
+</p>
