@@ -1,126 +1,106 @@
-<div align="center">
+# Tianle (Leo) Huang
 
-# Tianle Huang
+**AI Researcher & Engineer** · MSc in AI & Language, Stockholm University (expected 2027)
 
-<p>AI Engineer &nbsp;·&nbsp; MSc in AI & Language, Stockholm University</p>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&pause=1500&color=58A6FF&center=true&vCenter=true&width=500&lines=Machine+Learning+%C2%B7+NLP+%C2%B7+Speech+Technology;Research-driven+engineering+%E2%80%94+end+to+end)](https://git.io/typing-svg)
+Building reliable, knowledge-centric AI systems at the intersection of NLP, information retrieval, knowledge representation, and machine learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tianle-huang-9066883a8/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tianleeleo@gmail.com)
-
-</div>
-
----
-
-I design and build AI systems across the full research-to-deployment cycle.
-My work spans machine learning foundations, speech processing, and multilingual NLP —
-with a strong emphasis on rigorous evaluation, reproducibility, and practical deployment.
+![Location](https://img.shields.io/badge/Stockholm,_Sweden-2B3137?style=flat-square&logo=googlemaps&logoColor=white)
 
 ---
 
-## Competencies
+## 🔬 Research & Experience
 
-<table width="100%">
-<tr>
-<td width="33%" valign="top">
+### Industrial Knowledge Systems · KTH × AstraZeneca research collaboration
+Contributing to an industrial research collaboration on reliable knowledge and retrieval systems for maintenance data.
+- Knowledge graph construction and information extraction from maintenance records
+- Graph modelling and querying with **Neo4j / Cypher**; ontology design with **SHACL** validation
+- Retrieval-augmented generation with dense, structured, and hybrid retrieval
+- Evaluation of knowledge quality and retrieval behaviour
 
-**Machine Learning**
-- Statistical & representation learning
-- Classical ML methods
-- Experimental design
-- Evaluation methodology
-- Performance benchmarking
+<sub>Code, data, and results from this collaboration are confidential and not published here.</sub>
 
-</td>
-<td width="33%" valign="top">
+### Span-Based NER & Active Learning · MaintIE (public data)
+Annotation-efficient nested NER for short maintenance texts — [`ae-ner-maintenance`](https://github.com/leoohuang/ae-ner-maintenance)
+- **Done:** span-classification model on a Transformer encoder (PyTorch, Hugging Face); pre-registered encoder pilot (BERT / RoBERTa / ModernBERT); 10-seed learning curves comparing random, uncertainty, and uncertainty + diversity sampling, with paired significance tests
+- **In progress:** replication of the comparison on NAISS GPU hardware (SLURM)
+- Protocols, splits, and configs are frozen and tagged in Git before each experiment
 
-**NLP**
-- Multilingual embeddings
-- Cross-lingual semantic retrieval
-- Text preprocessing
-- Linguistic feature extraction
-- Generative system evaluation
-
-</td>
-<td width="33%" valign="top">
-
-**Speech Technology**
-- Automatic Speech Recognition
-- Whisper-based ASR pipelines
-- Speech signal analysis
-- Speech continuation experiments
-- Bias detection in ASR outputs
-
-</td>
-</tr>
-</table>
+### Speech Technology Research · KTH
+Speech continuation under speaker-identity bias.
+- Evaluating speech-language model continuations across speaker conditions
+- Whisper transcription and an automated evaluation pipeline, including LLM-as-a-judge scoring
 
 ---
 
-## Stack
+## 🧩 Featured Projects
 
-<div align="center">
+**[ae-ner-maintenance](https://github.com/leoohuang/ae-ner-maintenance)** — *How much annotation does nested NER on maintenance text really need?*
+Span-based NER with an active-learning loop, token-budget grid, pre-registered protocols, and unit tests for sampling, budgeting, and statistics.
+`PyTorch` `Transformers` `active learning` `SLURM`
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-4DABCF?style=flat-square&logo=numpy&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+**[maintenance-mind](https://github.com/leoohuang/maintenance-mind)** — *Agent that checks whether its retrieved evidence is sufficient before answering.*
+ReAct agent over work orders, equipment manuals, and the web, with a separate self-reflection step after each tool round. Synthetic demo data only.
+`LLM agents` `function calling` `FAISS` `sentence-transformers` `Streamlit`
 
-</div>
+**[game-review-ir](https://github.com/leoohuang/game-review-ir)** — *Does a retrieved review actually discuss the aspect a query asks about?*
+Team project: BM25 retrieval, LLM aspect classification, and aspect-aware reranking of Steam reviews. **My part:** the evaluation module — aspect-level nDCG@10, qrels construction, and paired permutation tests.
+`BM25` `IR evaluation` `LLM classification` `Cohen's κ`
 
----
+**[Podsearch](https://github.com/leoohuang/Podsearch)** — *Find the exact moment in a podcast where a topic is discussed.*
+Ingests podcast feeds, transcribes with Faster-Whisper, indexes timestamped chunks with BGE-M3 in ChromaDB, and reranks results (Chinese / English) with playable audio clips.
+`ASR` `BGE-M3` `ChromaDB` `reranking` `Streamlit`
 
-## Projects
+**[spoiler-detector](https://github.com/leoohuang/spoiler-detector)** — *Three-level spoiler severity classification for movie reviews.*
+IMDb + GPT-generated data, LLM-assisted labelling checked against a manual sample, sentence embeddings with four classical classifiers. [Live demo](https://huggingface.co/spaces/leoole/spoiler-detector) on Hugging Face.
+`sentence-transformers` `scikit-learn` `Gradio` `Hugging Face`
+
+**[swedish-vocab-trainer](https://github.com/leoohuang/swedish-vocab-trainer)** — *Turn messy Swedish notes into reviewable vocabulary practice.*
+Local-first web app with file parsing, optional AI-assisted extraction that marks AI-added content, and unit + end-to-end tests.
+`TypeScript` `React` `Vitest` `Playwright` `Docker`
 
 <details>
-<summary><b>Multilingual Retrieval Engine</b> &nbsp;·&nbsp; <code>Python</code> <code>PyTorch</code> <code>HuggingFace</code></summary>
+<summary><b>More: NLP foundations, implemented from scratch</b></summary>
 <br />
 
-Embedding-based semantic search system for cross-lingual similarity ranking.
-
-- Aligned multilingual vector representations
-- Cosine similarity scoring
-- Modular, reproducible evaluation pipeline
-
-</details>
-
-<details>
-<summary><b>Speech Bias Evaluation Framework</b> &nbsp;·&nbsp; <code>Python</code> <code>Whisper</code> <code>R</code></summary>
-<br />
-
-End-to-end pipeline for detecting and quantifying demographic bias in ASR outputs.
-
-- Automated Whisper transcription
-- Statistical significance testing (R + Python)
-- Reproducible experiment infrastructure
-
-</details>
-
-<details>
-<summary><b>Human–LLM Speech Continuation Study</b> &nbsp;·&nbsp; <code>Python</code> <code>Whisper</code></summary>
-<br />
-
-Experimental framework for benchmarking generative speech consistency against human baselines.
-
-- Audio segmentation and transcription workflow
-- Qualitative + quantitative evaluation design
-- Comparative analysis between human and model outputs
+| Project | What it covers |
+|---|---|
+| [postagging](https://github.com/leoohuang/postagging) | HMM vs. BiLSTM POS tagging on UD English-EWT, incl. OOV analysis |
+| [statistical-nlp](https://github.com/leoohuang/statistical-nlp) | N-gram LM, HMM tagger, Viterbi, word segmentation |
+| [multilingual-text-search](https://github.com/leoohuang/multilingual-text-search) | Cross-lingual word embeddings from parallel text via truncated SVD |
+| [essay-score-regression](https://github.com/leoohuang/essay-score-regression) | Linear regression with manual backpropagation vs. scikit-learn |
+| [obsidian-knowledge-ingest](https://github.com/leoohuang/obsidian-knowledge-ingest) | Agent skill that turns course material into a linked Obsidian knowledge base |
+| [naiss-sbatch](https://github.com/leoohuang/naiss-sbatch) | SLURM job templates and GPU checks for the NAISS Arrhenius cluster |
 
 </details>
 
 ---
 
-## Research Interests
+## 🛠️ Technical Skills
 
-Generative AI evaluation &nbsp;·&nbsp; Multilingual & cross-lingual NLP &nbsp;·&nbsp; Speech–language integration &nbsp;·&nbsp; Responsible AI
+| Area | Tools & methods |
+|---|---|
+| **Languages & Engineering** | Python, TypeScript, R, Bash · Git/GitHub, Linux, Docker · pytest, Vitest, Playwright |
+| **Machine Learning & Deep Learning** | PyTorch, Hugging Face Transformers, scikit-learn, NumPy, pandas · active learning, uncertainty sampling |
+| **NLP & Information Retrieval** | span-based / nested NER, POS tagging, sentence embeddings, BM25, dense retrieval (FAISS, ChromaDB, BGE-M3), reranking, RAG, LLM agents |
+| **Knowledge Graphs & Structured Knowledge** | Neo4j, Cypher, ontology design, SHACL validation, information extraction |
+| **Speech** | Whisper / Faster-Whisper ASR, speech-language model evaluation |
+| **Research Infrastructure & Evaluation** | SLURM on NAISS HPC (GPU), pre-registered experiment protocols, learning curves, nDCG / MRR / F1, Wilcoxon & permutation tests, inter-annotator agreement, LLM-as-a-judge |
 
-<sub>Stockholm, Sweden &nbsp;·&nbsp; Open to research collaborations and engineering roles</sub>
+---
 
-</div>
+## 🎯 Research Interests
+
+Reliable AI systems · Knowledge-centric AI · Information retrieval & RAG · Knowledge representation · Data-efficient NLP · Agent reliability
+
+---
+
+## 📄 Publications & Research Outputs
+
+- **Published / accepted / under review:** none yet.
+- **Ongoing research:** annotation-efficient span NER with active learning (MaintIE); industrial knowledge systems (KTH × AstraZeneca); speech continuation under speaker-identity bias (KTH).
+
+---
+
+<sub>Open to research collaborations, research-engineering roles, and PhD opportunities in NLP, IR, and knowledge-centric AI.</sub>
