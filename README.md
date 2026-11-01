@@ -22,15 +22,15 @@
 <tr>
 <td width="34%" valign="top">
 
-**🏭 Industrial Knowledge Systems**<br>
+**🏭 Industrial AI Research**<br>
 <sub>KTH × AstraZeneca · research collaboration</sub>
 
 </td>
 <td valign="top">
 
-Retrieval and knowledge systems for industrial maintenance data.
+Retrieval and RAG systems for industrial maintenance data.
 - Retrieval-augmented generation with dense, structured, and hybrid retrieval
-- Information extraction and knowledge graphs (Neo4j / Cypher)
+- Information extraction from maintenance records
 - Evaluation of retrieval and answer quality
 
 </td>
@@ -176,12 +176,13 @@ Local-first web app: file parsing, optional AI extraction that marks AI-added co
 
 | | |
 |---|---|
-| 🧠 **ML & Deep Learning** | PyTorch · Hugging Face Transformers · scikit-learn · NumPy · pandas · active learning |
-| 🔎 **NLP & Retrieval** | nested / span NER · POS tagging · sentence embeddings · BM25 · FAISS · ChromaDB · BGE-M3 · reranking · RAG · LLM agents |
-| 🎙️ **Speech** | Whisper / Faster-Whisper ASR · speech-language model evaluation |
-| 🕸️ **Knowledge & Data** | information extraction · Neo4j / Cypher · ontologies · data cleaning & splitting |
-| 📐 **Research & Evaluation** | SLURM on NAISS HPC (GPU) · pre-registered protocols · learning curves · nDCG / MRR / F1 · Wilcoxon & permutation tests · inter-annotator agreement · LLM-as-a-judge |
-| ⚙️ **Engineering** | Python · TypeScript · R · Bash · Git · Linux · Docker · pytest · Vitest · Playwright |
+| **Languages** | Python · TypeScript · R · Bash |
+| **Machine Learning** | PyTorch · Hugging Face Transformers · scikit-learn · NumPy · pandas · Transformer fine-tuning · active learning |
+| **NLP & LLMs** | named entity recognition · text classification · sequence labelling · sentence embeddings · LLM agents & tool calling · LLM-assisted annotation |
+| **Retrieval & RAG** | BM25 · dense retrieval (FAISS, ChromaDB, BGE-M3) · hybrid retrieval · reranking · retrieval-augmented generation |
+| **Speech** | Whisper / Faster-Whisper ASR · speech-language model evaluation |
+| **Evaluation & Statistics** | F1 · nDCG · MRR · learning curves · Wilcoxon & permutation tests · inter-annotator agreement · LLM-as-a-judge · pre-registered experiments |
+| **Infrastructure & Tooling** | Linux · Git · Docker · SLURM on NAISS GPU clusters · Neo4j · Streamlit · Gradio · pytest · Vitest · Playwright |
 
 <br>
 
