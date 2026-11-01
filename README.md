@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  I build <b>reliable, knowledge-centric AI systems</b> at the intersection of<br>
-  NLP, information retrieval, knowledge representation, and machine learning.
+  I build <b>reliable AI systems</b> across NLP, information retrieval, LLM agents,<br>
+  speech, and machine learning — from research experiments to working prototypes.
 </p>
 
 <br>
@@ -25,18 +25,13 @@
 **🏭 Industrial Knowledge Systems**<br>
 <sub>KTH × AstraZeneca · research collaboration</sub>
 
-![Ongoing](https://img.shields.io/badge/ongoing-1f6feb?style=flat-square)
-
 </td>
 <td valign="top">
 
-Reliable knowledge and retrieval systems for industrial maintenance data.
-- Knowledge graph construction & information extraction
-- **Neo4j / Cypher** graph modelling · ontology design with **SHACL** validation
-- RAG with dense, structured, and hybrid retrieval
-- Knowledge-quality and retrieval evaluation
-
-<sub>🔒 Code, data, and results are confidential and not published here.</sub>
+Retrieval and knowledge systems for industrial maintenance data.
+- Retrieval-augmented generation with dense, structured, and hybrid retrieval
+- Information extraction and knowledge graphs (Neo4j / Cypher)
+- Evaluation of retrieval and answer quality
 
 </td>
 </tr>
@@ -46,9 +41,6 @@ Reliable knowledge and retrieval systems for industrial maintenance data.
 **🧪 Span-NER & Active Learning**<br>
 <sub>MaintIE · public data</sub>
 
-![Experiments done](https://img.shields.io/badge/experiments-done-2da44e?style=flat-square)
-![GPU replication](https://img.shields.io/badge/GPU_replication-in_progress-bf8700?style=flat-square)
-
 </td>
 <td valign="top">
 
@@ -56,7 +48,6 @@ How much annotation does nested NER on maintenance text really need? → [`ae-ne
 - Span-classification model on a Transformer encoder (PyTorch, Hugging Face)
 - Pre-registered encoder pilot: BERT / RoBERTa / ModernBERT
 - 10-seed learning curves: random vs. uncertainty vs. uncertainty + diversity, with paired significance tests
-- Replication on NAISS GPU hardware (SLURM) in progress
 
 </td>
 </tr>
@@ -64,9 +55,7 @@ How much annotation does nested NER on maintenance text really need? → [`ae-ne
 <td valign="top">
 
 **🎙️ Speech Technology**<br>
-<sub>KTH · research project</sub>
-
-![Ongoing](https://img.shields.io/badge/ongoing-1f6feb?style=flat-square)
+<sub>KTH</sub>
 
 </td>
 <td valign="top">
@@ -189,8 +178,8 @@ Local-first web app: file parsing, optional AI extraction that marks AI-added co
 |---|---|
 | 🧠 **ML & Deep Learning** | PyTorch · Hugging Face Transformers · scikit-learn · NumPy · pandas · active learning |
 | 🔎 **NLP & Retrieval** | nested / span NER · POS tagging · sentence embeddings · BM25 · FAISS · ChromaDB · BGE-M3 · reranking · RAG · LLM agents |
-| 🕸️ **Knowledge Graphs** | Neo4j · Cypher · ontology design · SHACL · information extraction |
 | 🎙️ **Speech** | Whisper / Faster-Whisper ASR · speech-language model evaluation |
+| 🕸️ **Knowledge & Data** | information extraction · Neo4j / Cypher · ontologies · data cleaning & splitting |
 | 📐 **Research & Evaluation** | SLURM on NAISS HPC (GPU) · pre-registered protocols · learning curves · nDCG / MRR / F1 · Wilcoxon & permutation tests · inter-annotator agreement · LLM-as-a-judge |
 | ⚙️ **Engineering** | Python · TypeScript · R · Bash · Git · Linux · Docker · pytest · Vitest · Playwright |
 
@@ -199,27 +188,16 @@ Local-first web app: file parsing, optional AI extraction that marks AI-added co
 ## 🎯 Research Interests
 
 <p align="center">
-  <code>Reliable AI systems</code>&nbsp;
-  <code>Knowledge-centric AI</code>&nbsp;
-  <code>Information retrieval & RAG</code><br>
-  <code>Knowledge representation</code>&nbsp;
-  <code>Data-efficient NLP</code>&nbsp;
-  <code>Agent reliability</code>
+  <code>Natural language processing</code>&nbsp;
+  <code>Information retrieval & RAG</code>&nbsp;
+  <code>LLM agents & evaluation</code><br>
+  <code>Speech & language</code>&nbsp;
+  <code>Data-efficient learning</code>&nbsp;
+  <code>Reliable AI systems</code>
 </p>
 
 <br>
 
-## 📄 Publications & Research Outputs
-
-| Status | |
-|---|---|
-| Published · Accepted · Under review | — none yet |
-| Ongoing | Annotation-efficient span NER with active learning (MaintIE) |
-| Ongoing | Industrial knowledge systems — KTH × AstraZeneca |
-| Ongoing | Speech continuation under speaker-identity bias — KTH |
-
-<br>
-
 <p align="center">
-  <sub>Open to research collaborations, research-engineering roles, and PhD opportunities in NLP, IR, and knowledge-centric AI.</sub>
+  <sub>Open to research collaborations, research-engineering roles, and PhD opportunities in NLP, IR, and applied ML.</sub>
 </p>
